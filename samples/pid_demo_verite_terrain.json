@@ -1,0 +1,52 @@
+{
+  "document": "PID-DEMO-001",
+  "equipements": [
+    "TK-101",
+    "P-101A",
+    "P-101B",
+    "E-101",
+    "R-101"
+  ],
+  "instruments": [
+    "LT-101",
+    "LI-101",
+    "LSHH-101",
+    "PT-102",
+    "PI-102",
+    "FT-103",
+    "FIC-103",
+    "FV-103",
+    "TT-104",
+    "TIC-104",
+    "TV-104",
+    "PSV-105",
+    "PT-105",
+    "AT-106",
+    "AIC-106",
+    "HV-001",
+    "HV-002"
+  ],
+  "lignes": [
+    "4\"-P-1001-A1A",
+    "3\"-P-1002-A1A",
+    "3\"-P-1003-A1A",
+    "2\"-P-1004-A1A",
+    "2\"-S-2001-B2A-IH",
+    "2\"-C-2002-B2A",
+    "1\"-V-3001"
+  ],
+  "anomalies_attendues": [
+    {
+      "type": "Repère en double",
+      "objet": "TT-104"
+    },
+    {
+      "type": "Régulateur sans vanne",
+      "objet": "AIC-106"
+    },
+    {
+      "type": "Ligne sans classe de tuyauterie",
+      "objet": "1\"-V-3001"
+    }
+  ]
+}

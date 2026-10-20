@@ -1,0 +1,8 @@
+pymupdf>=1.24
+pandas>=2.0
+openpyxl>=3.1
+streamlit>=1.40
+matplotlib>=3.8
+pytest>=8.0
+# Optionnel, uniquement pour le mode « IA vision » :
+# openai>=1.40
